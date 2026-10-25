@@ -1,0 +1,17 @@
+1;Willliam;Novak;Carson Street;3471;33602;Tampa;3842785179;Father;photos/fatherwilliam.jpg
+2;Marie;Novak;Boone Crockett Lane;3930;98109;Seattle;3604433294;Mother;photos/mothermarie.jpg
+3;Sarah;Fortune;Serpent Isles Street;301;98169;Seattle;532207594;Girlfriend;photos/sarah.jpg
+4;Patrick;Bateman;81st Street;11;10001;New York;664224061;Friend;photos/Draven.jpg
+5;Elizabeth;Ross;Parkview Drive;385;77074;Houston;1402197853;Aunt-in-Law;photos/Draven.jpg
+6;Michael;Greene;Boring Lane;21353;94016;San Francisco;3258375046;Grandfather;photos/granfathermichael.jpg
+7;Jessica;Walker;Void Street;4543;4312;Dallas;2135531234;Aunt;photos/qwerty.jpg
+8;Eric;Ross;Wood Street;54435;77074;Houston;3542235654;Cousin;photos/cousineric.jpg
+9;Kassadin;Walker;Void Street;4543;4312;Dallas;2119712727;Uncle-in-Law;photos/kassadinxd.jpg
+10;Draven;Walker;Void Street;4543;4312;Dallas;3138706138;Cousin;photos/Draven.jpg
+11;Kaisa;Walker;Void Street;4543;4312;Dallas;4112235436;Cousin;photos/kaisa.jpg
+12;Joseph;Ross;Bird Street;531;90001;Los Angeles;129245146;Grandfather;photos/grandfatherjoseph.jpg
+13;Harold;Potter;Cabell Avenue;5554;20203;Washington;2223333214;Uncle-in-Law;photos/harold.jpg
+14;Abbey;Smith;Cabell Avenue;5554;20203;Washington;1157263815;Aunt;photos/abbey.jpg
+15;Dylan;Ross;Parkview Drive;385;77074;Houston;2248483827;Cousin;photos/dylanr.jpg
+16;Shannon;Ross;Parkview Drive;385;77074;Houston;1402197853;Cousin;photos/shanon.jpg
+17;Abbey;Smith;Cabell Avenue;5554;20203;Washington;1157263815;Aunt;photos/abbey.jpg

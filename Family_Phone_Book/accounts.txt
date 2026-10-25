@@ -1,2 +1,0 @@
-1;AdamNovak21;password;AdamNovak21.txt
-2;John5;cat;John5.txt
