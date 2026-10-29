@@ -4,8 +4,8 @@
 
 ### Overview
 
-Family Phone Book is a desktop application with a graphical user interface designed for managing contact information about family members and close acquaintances. It provides a convenient alternative to a traditional paper phone book, allowing users to store, browse, search, and modify contact records.
-The application supports multiple user accounts, each with a separate contact database. Users can log in with their credentials and manage their own contacts. Contact information is stored in text files, allowing the data to be loaded when the application starts and saved after modifications.
+Family Phone Book is a desktop application with a graphical user interface designed for managing contact information about family members and close acquaintances. It provides a convenient alternative to a traditional paper phone book, allowing users to store, browse, search, and modify contact records. This application was developed during the second year of studies at Kielce University of Technology.
+The application supports multiple user accounts, each with a separate contact database. Users can log in with their credentials and manage their own contacts. Contact information is stored in text files, allowing the data to be loaded when the application starts and saved after modifications. The application was developed as a second-year university project at Kielce University of Technology.
 
 ### Features
 
@@ -60,7 +60,7 @@ cmake --build build --config Release
 ### Opis
 
 Rodzinna Książka Telefoniczna to aplikacja desktopowa z graficznym interfejsem użytkownika, przeznaczona do zarządzania danymi kontaktowymi członków rodziny oraz bliskich znajomych. Stanowi wygodną alternatywę dla tradycyjnej papierowej książki telefonicznej, umożliwiając przechowywanie, przeglądanie, wyszukiwanie i modyfikowanie informacji o kontaktach.
-Aplikacja obsługuje wielu użytkowników, z których każdy posiada osobne konto oraz własną bazę kontaktów. Użytkownicy mogą logować się za pomocą loginu i hasła, a następnie zarządzać swoimi danymi. Informacje są przechowywane w plikach tekstowych, dzięki czemu mogą być wczytywane podczas uruchamiania programu i zapisywane po wprowadzeniu zmian.
+Aplikacja obsługuje wielu użytkowników, z których każdy posiada osobne konto oraz własną bazę kontaktów. Użytkownicy mogą logować się za pomocą loginu i hasła, a następnie zarządzać swoimi danymi. Informacje są przechowywane w plikach tekstowych, dzięki czemu mogą być wczytywane podczas uruchamiania programu i zapisywane po wprowadzeniu zmian. Aplikacja została zrealizowana jako projekt na drugim roku studiów na Politechnice Świętokrzyskiej.
 
 ### Funkcjonalności
 
