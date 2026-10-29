@@ -95,7 +95,7 @@ Aplikacja obsługuje wielu użytkowników, z których każdy posiada osobne kont
 - C++
 - wxWidgets 3.0.5
 - CMake
-- NSIS (Nullsoft Scriptable Install System)
+- NSIS
 - Przechowywanie danych w plikach tekstowych
 
 ### Uruchomienie
