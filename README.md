@@ -99,9 +99,9 @@ Aplikacja obsługuje wielu użytkowników, z których każdy posiada osobne kont
 - Przechowywanie danych w plikach tekstowych
 
 ### Uruchomienie
-1. Skonfiguruj projekt za pomocą CMake.
-2. Zbuduj cel `FamilyPhoneBook`.
-3. Uruchom plik wykonywalny z katalogu `build`.
+1. Skonfiguruj projekt przez CMake.
+2. Zbuduj target `FamilyPhoneBook`.
+3. Uruchom plik wykonywalny z katalogu build.
 
 Przykład (Windows, PowerShell):
 ```powershell
