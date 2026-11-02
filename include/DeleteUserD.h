@@ -14,7 +14,7 @@ class DeleteUserD: public wxDialog
 {
 	public:
         vector<Account> AccDel;
-        string accPath = "accounts.txt";
+        string accPath = "data/accounts.txt";
 
 		DeleteUserD(wxWindow* parent,wxWindowID id=wxID_ANY,const wxPoint& pos=wxDefaultPosition,const wxSize& size=wxDefaultSize);
 		virtual ~DeleteUserD();

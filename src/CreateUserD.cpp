@@ -78,11 +78,11 @@ void CreateUserD::OnRegisterButton(wxCommandEvent& event)
 
     else
     {
-        string f = "accounts.txt";
+        string f = "data/accounts.txt";
         ofstream file;
         file.open(f,ios::out | ios::app);
         Account tmp;
-        string namefile = login +".txt";
+        string namefile = "data/" + login + ".txt";
         file<<"\n"<<login<<";"<<password<<";"<<namefile;
         ofstream CreateFile(namefile);
         CreateFile.close();

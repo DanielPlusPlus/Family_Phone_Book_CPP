@@ -951,7 +951,7 @@ void addAccount(vector<Account> &ACCdb,string f,int cntp)
     cin>>tmp.login;
     cin.ignore();
     getline(cin,tmp.password);
-    string namefile = tmp.login +".txt";
+    string namefile = "data/" + tmp.login + ".txt";
     tmp.file = namefile;
     ACCdb.push_back(tmp);
     file<<"\n"<<tmp.login<<";"<<tmp.password<<";"<<tmp.file;
@@ -991,5 +991,4 @@ void SaveAccDB(vector<Account> &acc,string f)
     }
     file.close();
 }
-
 

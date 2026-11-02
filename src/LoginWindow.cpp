@@ -88,7 +88,7 @@ LoginWindow::LoginWindow(wxWindow* parent,wxWindowID id,const wxPoint& pos,const
 
 	if(ck)
     {
-    string accPath = "accounts.txt";
+    string accPath = "data/accounts.txt";
     readAccount(accPath,ACCdb);
     }
 
@@ -142,7 +142,7 @@ void LoginWindow::CreateUserButton(wxCommandEvent& event)
     CreateUserD dlg(this);
     int res = dlg.ShowModal();
     ACCdb.clear();
-    string accPath = "accounts.txt";
+    string accPath = "data/accounts.txt";
     readAccount(accPath,ACCdb);
     UsersListV->ClearAll();
     UsersListV->InsertColumn(0, "Login");
@@ -167,7 +167,7 @@ void LoginWindow::DeleteUserButton(wxCommandEvent& event)
     int res = dlg.ShowModal();
 
     ACCdb.clear();
-    string accPath = "accounts.txt";
+    string accPath = "data/accounts.txt";
     readAccount(accPath,ACCdb);
     UsersListV->ClearAll();
     UsersListV->InsertColumn(0, "Login");
