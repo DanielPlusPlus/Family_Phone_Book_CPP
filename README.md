@@ -45,14 +45,32 @@ The application supports multiple user accounts, each with a separate contact da
 
 ### How to Run
 1. Configure the project with CMake.
-2. Build the `FamilyPhoneBook` target.
+2. Build the `Family_Phone_Book` target.
 3. Run the executable from the build directory.
 
 Example (Windows, PowerShell):
 ```powershell
 cmake -S . -B build
 cmake --build build --config Release
-./build/FamilyPhoneBook.exe
+./build/Release/Family_Phone_Book.exe
+```
+
+### Project Structure
+```
+.
+├── build/                    # CMake build output
+├── data/                     # account and contact data files
+├── docs/                     # documentation
+├── external                  # dependencies (wxWidgets)
+├── icons/                    # application icon
+├── include/                  # header files
+├── photos/                   # contact photos
+├── screenshots/              # screenshots
+├── src/                      # source files
+├── CMakeLists.txt            # CMake configuration
+├── Installer.nsi             # NSIS installer script
+├── README.md                 # this file
+└── resources.rc              # Windows resources
 ```
 
 ## PL
@@ -100,12 +118,30 @@ Aplikacja obsługuje wielu użytkowników, z których każdy posiada osobne kont
 
 ### Uruchomienie
 1. Skonfiguruj projekt za pomocą CMake.
-2. Zbuduj cel `FamilyPhoneBook`.
+2. Zbuduj cel `Family_Phone_Book`.
 3. Uruchom plik wykonywalny z katalogu `build`.
 
 Przykład (Windows, PowerShell):
 ```powershell
 cmake -S . -B build
 cmake --build build --config Release
-./build/FamilyPhoneBook.exe
+./build/Release/Family_Phone_Book.exe
+```
+
+### Struktura projektu
+```
+.
+├── build/                    # katalog generowany przez CMake
+├── data/                     # pliki kont i kontaktów
+├── docs/                     # dokumentacja
+├── external                  # zaleznosci (wxWidgets)
+├── icons/                    # ikona aplikacji
+├── include/                  # pliki nagłówkowe
+├── photos/                   # zdjęcia kontaktów
+├── screenshots/              # zrzuty ekranu
+├── src/                      # pliki źródłowe
+├── CMakeLists.txt            # konfiguracja CMake
+├── Installer.nsi             # skrypt instalatora NSIS
+├── README.md                 # ten plik
+└── resources.rc              # zasoby Windows
 ```
