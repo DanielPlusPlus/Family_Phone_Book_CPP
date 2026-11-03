@@ -56,6 +56,7 @@ cmake --build build --config Release
 ```
 
 ### Project Structure
+
 ```
 .
 ├── build/                    # CMake build output
@@ -129,6 +130,7 @@ cmake --build build --config Release
 ```
 
 ### Struktura projektu
+
 ```
 .
 ├── build/                    # katalog generowany przez CMake
